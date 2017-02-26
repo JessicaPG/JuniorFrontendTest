@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+	    <meta charset="UTF-8">
+	    <link href="css/style.css" rel="stylesheet">
+	    <script src="js/jsFunction.js"></script>
+	</head>
+	<title>Front End Test</title>
+	<style>
+		body {
+		    background-color: WhiteSmoke;
+		}
+	</style>
+	<body>
+		<div id="box_form" class= box>
+			<div>
+				<input name = "search" value id= "searchUserName" type="text" maxlength="100" placeholder="Search username...">
+				<button id="SearchBtn">Search</button>
+			</div>
+			<div id="errorMessage" class="hidden">
+				<p>Does not exist</p>
+			</div>
+
+			<div id="userInfo" class ="hidden" style="overflow: hidden;">
+				<div class = "styleBox">
+					<img id= "avatar" src="">
+				</div>
+				<div style="margin-left: 5px;" class="styleBox">
+					<span id= "userName" style="font-style: italic;"> username</span><br>
+					<span id= "name" style="font-size: 25px; font-weight: bold;">Full name</span><br>
+					<span id="bio">bio</span><br>
+				</div>
+			</div>
+
+			<div id="reposBox" class ="hidden"  style="width: 100%;overflow: hidden;">
+				<div id="repos" class="styleBox">
+					<span style="font-weight: bold;">Repositories</span><br>
+				</div>
+				<div id= "listRepos" >
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
