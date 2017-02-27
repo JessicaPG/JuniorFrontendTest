@@ -42,9 +42,6 @@ function parseRepos (sData){
 	var htmlContent = "";
 
 	for (var i = 0; i < aRepos.length; i++) {
-		console.log(aRepos[i].name); 
-		console.log(aRepos[i].stargazers_count);
-		console.log(aRepos[i].forks_count);
 
 		htmlContent += "<div class ='reposN' >\n";
 		htmlContent += "<div style='width:60%;float:left;'>\n";
